@@ -1,3 +1,7 @@
+* {
+    outline: 1px solid greenyellow;
+}
+
 #container {
     width: 970px;
     padding: 15px;
@@ -27,9 +31,16 @@
     font-size: 15px;
 }
 
-#side-nav ul:nth-child(1) {
+
+/* #side-nav ul:nth-child(1) {
     list-style-type: none;
     padding-bottom: 0;
+} */
+
+li.home {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 
